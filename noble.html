@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Noble Gases</title>
+  
+</head>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 400% 400%;
+    animation: gradientShift 10s ease infinite;
+    color: white;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .noble {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: wavy;
+    font-weight: bold;
+    color: #170808;
+    background-color: rgba(255, 255, 255, 0.226);
+    padding: 10px 15px;
+    justify-content: center;
+  }
+
+  .main {
+    gap: 8px;
+    text-decoration: wavy;
+    font-weight: bold;
+    color: #270f0f;
+    background-color: rgba(32, 20, 20, 0.1);
+    padding: 10px 15px;
+    justify-content: center;
+  }
+
+  .classification-links a {
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(49, 11, 11);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #a76de1;
+    padding: 10px 15px;
+    justify-content: center;
+  }
+  img {
+  border-radius: 12px; /* Adjust the value as needed */
+}
+</style>
+<body>
+  <header>
+    <h1 class="main">🟣 Noble Gases</h1>
+  </header>
+  <main>
+    <p class="noble">Noble gases are inert elements found in Group 18 of the periodic table.</p>
+    <p class="noble">>>Noble gases are colorless, odorless, and extremely unreactive due to their full valence electron shells. They are used in lighting, welding, and as inert environments for chemical reactions. Their stability makes them unique among the elements.</p>
+    <ul>
+      <li>Helium (He)</li>
+      <li>Neon (Ne)</li>
+      <li>Argon (Ar)</li>
+      <li>Krypton (Kr)</li>
+      <li>Xenon (Xe)</li>
+      <li>Radon (Rn)</li>
+      <li>Oganesson (Og)</li>
+    </ul>
+    <main>
+      <img id="content-frame" src="/noble gases.jpg" width="1500px" height="1000px" style="border: none;" />
+      <div class="classification-links">
+        <a href="https://www.youtube.com/results?search_query=what+are+noble+gases" target="blank" rel="noopener noreferrer" class="classification-links">
+          Watch a Video
+        </a>
+      </div>
+    </main>
+  </main>
+</body>
+</html>

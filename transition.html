@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Transition Elements</title>
+  
+</head>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 400% 400%;
+    animation: gradientShift 10s ease infinite;
+    color: white;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .transition {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: wavy;
+    font-weight: bold;
+    color: #170808;
+    background-color: rgba(255, 255, 255, 0.226);
+    padding: 10px 15px;
+    justify-content: center;
+  }
+
+  .main {
+    gap: 8px;
+    text-decoration: wavy;
+    font-weight: bold;
+    color: #270f0f;
+    background-color: rgba(32, 20, 20, 0.1);
+    padding: 10px 15px;
+    justify-content: center;
+  }
+
+  .classification-links a {
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(49, 11, 11);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #37b9fa;
+    padding: 10px 15px;
+    justify-content: center;
+  }img {
+  border-radius: 12px; /* Adjust the value as needed */
+}
+</style>
+<body>
+  <header>
+    <h1 class="main">🔵 Transition Elements</h1>
+  </header>
+  <main>
+    <p class="transition">Transition elements are found in the center of the periodic table, spanning Groups 3 to 12.</p>
+    <p class="transition">>>Transition metals are characterized by their ability to form variable oxidation states, complex ions, and colored compounds. They are typically hard, have high melting points, and are good conductors of electricity. Common examples include iron, copper, and zinc.</p>
+    <ul>
+      <li>Scandium (Sc)</li>
+      <li>Titanium (Ti)</li>
+      <li>Iron (Fe)</li>
+      <li>Copper (Cu)</li>
+      <li>Zinc (Zn)</li>
+      <li>Silver (Ag)</li>
+      <li>Gold (Au)</li>
+    </ul>
+    <main>
+      <img id="content-frame" src="/transition-metals.png" width="1500px" height="1000px" style="border: none;" />
+      <div class="classification-links">
+        <a href="https://www.youtube.com/results?search_query=what+are+transition+elements" target="blank" rel="noopener noreferrer" class="classification-links">
+          Watch a Video
+        </a>
+      </div>
+    </main>
+  </main>
+</body>
+</html>
